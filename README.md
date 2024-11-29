@@ -1,2 +1,0 @@
-# DTFS
-Dot File Configuration

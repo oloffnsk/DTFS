@@ -1,0 +1,10 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ combi-modi: "window,drun,ssh";
+ }
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/usr/share/rofi/themes/paper-float.rasi"
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+@theme "/usr/share/rofi/themes/rofiblurblack.rasi"
