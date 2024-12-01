@@ -1,0 +1,8 @@
+# GIMP action-history
+
+(history-item "dockable-close-tab" 1)
+(history-item "dialogs-preferences" 1)
+(history-item "dialogs-colors" 0)
+(history-item "image-new" 1)
+
+# end of action-history
