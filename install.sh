@@ -22,8 +22,8 @@ then
 
 	yay -S nautilus-open-any-terminal
 	sudo pacman -S picom rofi nautilus mpv
-	sudo cp -r -f .config ~/
-	sudo cp -r -f .themes ~/
+	cp -r -f .config ~/
+	cp -r -f .themes ~/
 	sleep 1
 	echo
 	sudo mv -f ~/.config/rofi/rofiblurblack.rasi /usr/share/rofi/themes/
