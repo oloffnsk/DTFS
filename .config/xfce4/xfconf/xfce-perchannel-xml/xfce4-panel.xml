@@ -49,69 +49,18 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (78%)"/>
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (81%)"/>
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (79%)"/>
-        <value type="string" value="networkmanager アプレット"/>
-        <value type="string" value="configuring wi-fi network connection “hemmet”…"/>
-        <value type="string" value="notes"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (71%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (81%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (72%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (73%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (74%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (75%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (76%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (77%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (80%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (78%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (79%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (83%)"/>
-        <value type="string" value="no network connection"/>
       </property>
       <property name="icon-size" type="int" value="0"/>
       <property name="hide-new-items" type="bool" value="true"/>
       <property name="hidden-legacy-items" type="array">
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (78%)"/>
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (81%)"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="wi-fi ネットワーク接続 &apos;hemmet&apos; はアクティブです: hemmet (79%)"/>
-        <value type="string" value="wi-fi network connection “hemmet” active: hemmet (71%)"/>
-        <value type="string" value="configuring wi-fi network connection “hemmet”…"/>
-        <value type="string" value="networkmanager アプレット"/>
-        <value type="string" value="notes"/>
       </property>
       <property name="hidden-items" type="array">
-        <value type="string" value="GoldenDict-ng"/>
-        <value type="string" value="bT_PMCWSNh"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="chrome_status_icon_1"/>
-        <value type="string" value="proton-vpn-app"/>
-        <value type="string" value="EhdyAMeC95"/>
-        <value type="string" value="Fcitx"/>
-        <value type="string" value="Clementine"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="Clementine"/>
-        <value type="string" value="EhdyAMeC95"/>
-        <value type="string" value="chrome_status_icon_1"/>
-        <value type="string" value="GoldenDict-ng"/>
-        <value type="string" value="proton-vpn-app"/>
-        <value type="string" value="Fcitx"/>
-        <value type="string" value="bT_PMCWSNh"/>
-        <value type="string" value="steam"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Brave;clementine;firefox"/>
     </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
-    <property name="plugin-10" type="string" value="notification-plugin"/>
-    <property name="plugin-11" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="tooltip-format" type="string" value="%x"/>
@@ -139,7 +88,7 @@
         <value type="string" value="-logout-dialog"/>
       </property>
       <property name="appearance" type="uint" value="1"/>
-      <property name="button-title" type="uint" value="3"/>
+      <property name="button-title" type="uint" value="1"/>
       <property name="custom-title" type="string" value="YUKUN"/>
     </property>
     <property name="plugin-1" type="string" value="separator">
