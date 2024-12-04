@@ -7,7 +7,7 @@ sudo permissions."
 echo
 echo "fcitx, fcitx-mozc, and their required dependencies
 will not be installed, but you will be prompted to istall
-rofi, picom, nautilus, nautilus-open-any-terminal, and mpv..."
+rofi, picom, nautilus, nautilus-open-any-terminal, noto CJK fonts, and mpv..."
 echo
 read -p "Continue? " -n  1 -r
 echo
@@ -21,7 +21,7 @@ then
 	fi
 
 	yay -S nautilus-open-any-terminal
-	sudo pacman -S picom rofi nautilus mpv
+	sudo pacman -S picom rofi nautilus mpv noto-fonts-cjk
 	cp -r -f .config ~/
 	cp -r -f .themes ~/
 	sleep 1
