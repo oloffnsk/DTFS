@@ -28,6 +28,26 @@ then
 	echo
 	sudo mv -f ~/.config/rofi/rofiblurblack.rasi /usr/share/rofi/themes/
 	sudo mv -f ~/.themes/Os-Catalina-Night /usr/share/icons
+	sudo mv -f ~/.themes/MacOS-Pixel-vr4-Linux/MacOS-Pixel-vr4 /usr/share/icons
+
+	echo "[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=picom
+Comment=
+Exec=/home/$(whoami)/.config/picom/picomstart.sh
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=false" > /home/$(whoami)/.config/autostart/picomtest.desktop
+
+	echo "sleep 3 && picom -b --config /home/$(whoami)/.config/picom/picom.conf" > /home/$(whoami)/.config/picom/picomstarttest.sh
+
+	chmod +x /home/$(whoami)/.config/autostart/picomtest.desktop
+	chmod +x /home/$(whoami)/.config/picom/picomstarttest.sh
+
 	gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal xfce4-terminal
 	echo
 	echo "If you want to use my mozc keybindings,

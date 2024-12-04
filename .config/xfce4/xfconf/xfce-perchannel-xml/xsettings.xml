@@ -2,7 +2,7 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Fluent-Dark-compact"/>
+    <property name="ThemeName" type="string" value="Fluent-grey-Dark-compact"/>
     <property name="IconThemeName" type="string" value="Os-Catalina-Night"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
@@ -32,8 +32,8 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="empty"/>
-    <property name="CursorThemeSize" type="empty"/>
+    <property name="CursorThemeName" type="string" value="MacOS-Pixel-vr4"/>
+    <property name="CursorThemeSize" type="int" value="16"/>
     <property name="DecorationLayout" type="string" value=":minimize,maximize,close"/>
     <property name="DialogsUseHeader" type="bool" value="false"/>
     <property name="TitlebarMiddleClick" type="empty"/>
