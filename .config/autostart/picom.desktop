@@ -4,10 +4,9 @@ Version=0.9.4
 Type=Application
 Name=picom
 Comment=
-Exec=~/.config/picom/picomstart.sh
+Exec=$HOME/.config/picom/picomstart.sh
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
 Terminal=false
 Hidden=false
-

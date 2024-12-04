@@ -1,1 +1,1 @@
-sleep 3 && picom -b --config /home/yukun/.config/picom/picom.conf
+sleep 3 && picom -b --config $HOME/.config/picom/picom.conf
