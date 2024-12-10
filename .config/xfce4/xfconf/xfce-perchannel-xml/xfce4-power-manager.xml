@@ -8,7 +8,7 @@
     <property name="blank-on-ac" type="int" value="0"/>
     <property name="dpms-on-ac-sleep" type="uint" value="0"/>
     <property name="dpms-on-ac-off" type="uint" value="0"/>
-    <property name="brightness-level-on-ac" type="uint" value="50"/>
+    <property name="brightness-level-on-ac" type="uint" value="15"/>
     <property name="brightness-on-ac" type="uint" value="120"/>
   </property>
 </channel>
