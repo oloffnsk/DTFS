@@ -7,12 +7,10 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='C:${PWD//\//\\\\}> '
-
-echo -e "Microsoft Windows [Version 6.1.7600]\nCopyright (c) 2009 Microsoft Corporation.  All rights reserved.\n"
+PS1='[\u@\h \W]\$ '
 
 
-export PATH="$HOME/Scripts:$PATH"
+export PATH="/home/yukun/Scripts:$PATH"
 
 export LANG=ja_JP.UTF-8
 
